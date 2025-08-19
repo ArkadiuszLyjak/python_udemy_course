@@ -1,0 +1,48 @@
+# === Środowisko Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === Wirtualne środowisko ===
+.venv/
+venv/
+ENV/
+env/
+*.env
+*.env.*
+
+# === PyCharm ===
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# === Notebooki i pliki tymczasowe ===
+.ipynb_checkpoints/
+*.log
+*.tmp
+*.bak
+*.swp
+*~  
+
+# === Systemowe ===
+.DS_Store
+Thumbs.db
+
+# === Pliki danych (opcjonalnie, jeśli generujesz dane lokalnie) ===
+*.csv
+*.xlsx
+*.h5
+*.nc
+
+# === Pliki wyjściowe, wyniki symulacji itp. ===
+/outputs/
+/results/
+/data/cache/
+
+# === Pliki konfiguracyjne edytorów (opcjonalnie) ===
+.vscode/
